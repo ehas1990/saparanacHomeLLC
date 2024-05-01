@@ -2661,8 +2661,8 @@ div:hover > .ttm-box-view-overlay:before, div:hover > .ttm-box-view-content-inne
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     background-color: #323232;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight:lighter;
     border-radius: 0;
     border: none;
     text-transform: capitalize;
