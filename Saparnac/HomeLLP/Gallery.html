@@ -10,8 +10,10 @@
     <meta name="author" content="https://wwww.saparnachomes.com/" />
     <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
     <title>Saparnac Homes LLP | Gallery</title>
-    
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/animate.css"/>
     <link rel="stylesheet" type="text/css" href="css/flaticon.css"/>
@@ -136,59 +138,8 @@
                                 </ul> -->
                                 <div class="content-tab">
                                     <!-- content-inner -->
-                                    <div class="row ttm-boxes-spacing-30px isotope-project">
-                                        <div class="col-lg-3 col-md-6 project_item architecture flooring ">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style3">
-                                                <!-- featured-thumbnail -->
-                                                <div class="featured-thumbnail"> 
-                                                    <img  class="img-fluid" src="images/saparana/0001.jpg" alt="image"> 
-                                                </div>
-                                                <!-- featured-thumbnail end-->
-                                                <div class="featured-content-inner">
-                                                   
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio end-->
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 project_item construction flooring">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style3">
-                                                <!-- featured-thumbnail -->
-                                                <div class="featured-thumbnail"> 
-                                                    <img  class="img-fluid" src="images/saparana/0002.jpg" alt="image"> 
-                                                </div>
-                                                <!-- featured-thumbnail end-->
-                                                <div class="featured-content-inner">
-                                                   
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio end-->
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 project_item flooring interior-design">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style3">
-                                                <!-- featured-thumbnail -->
-                                                <div class="featured-thumbnail"> 
-                                                    <img  class="img-fluid" src="images/saparana/0003.jpg" alt="image"> 
-                                                </div>
-                                                <!-- featured-thumbnail end-->
-                                                <div class="featured-content-inner">
-                                                    
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio end-->
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 project_item architecture">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style3">
-                                                <!-- featured-thumbnail -->
-                                                <div class="featured-thumbnail"> 
-                                                    <img  class="img-fluid" src="images/saparana/001.jpg" alt="image"> 
-                                                </div>
-                                                <!-- featured-thumbnail end-->
-                                                <div class="featured-content-inner">
-                                                  
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio end-->
-                                        </div>
+                                    <div class="row ttm-boxes-spacing-30px isotope-project" id="imageContainer">
+                                      
                                         <div class="col-lg-3 col-md-6 project_item architecture flooring">
                                             <!-- featured-imagebox-portfolio -->
                                             <div class="featured-imagebox featured-imagebox-portfolio style3">
@@ -452,12 +403,12 @@
                                                 </div>
                                             </div><!-- featured-imagebox-portfolio end-->
                                         </div>
-                                        <div class="col-lg-3 col-md-6 project_item flooring">
+                                        <div class="col-lg-3 col-md-6 project_item architecture flooring ">
                                             <!-- featured-imagebox-portfolio -->
                                             <div class="featured-imagebox featured-imagebox-portfolio style3">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail"> 
-                                                    <img class="img-fluid" src="images/saparana/IMG-20230426-WA0055.jpg" alt="image"> 
+                                                    <img  class="img-fluid" src="images/saparana/0001.jpg" alt="image"> 
                                                 </div>
                                                 <!-- featured-thumbnail end-->
                                                 <div class="featured-content-inner">
@@ -465,12 +416,12 @@
                                                 </div>
                                             </div><!-- featured-imagebox-portfolio end-->
                                         </div>
-                                        <div class="col-lg-3 col-md-6 project_item flooring">
+                                        <div class="col-lg-3 col-md-6 project_item construction flooring">
                                             <!-- featured-imagebox-portfolio -->
                                             <div class="featured-imagebox featured-imagebox-portfolio style3">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail"> 
-                                                    <img class="img-fluid" src="images/saparana/IMG-20230426-WA0063.jpg" alt="image"> 
+                                                    <img  class="img-fluid" src="images/saparana/0002.jpg" alt="image"> 
                                                 </div>
                                                 <!-- featured-thumbnail end-->
                                                 <div class="featured-content-inner">
@@ -478,7 +429,40 @@
                                                 </div>
                                             </div><!-- featured-imagebox-portfolio end-->
                                         </div>
+                                        <div class="col-lg-3 col-md-6 project_item flooring interior-design">
+                                            <!-- featured-imagebox-portfolio -->
+                                            <div class="featured-imagebox featured-imagebox-portfolio style3">
+                                                <!-- featured-thumbnail -->
+                                                <div class="featured-thumbnail"> 
+                                                    <img  class="img-fluid" src="images/saparana/0003.jpg" alt="image"> 
+                                                </div>
+                                                <!-- featured-thumbnail end-->
+                                                <div class="featured-content-inner">
+                                                    
+                                                </div>
+                                            </div><!-- featured-imagebox-portfolio end-->
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 project_item architecture">
+                                            <!-- featured-imagebox-portfolio -->
+                                            <div class="featured-imagebox featured-imagebox-portfolio style3">
+                                                <!-- featured-thumbnail -->
+                                                <div class="featured-thumbnail"> 
+                                                    <img  class="img-fluid" src="images/saparana/001.jpg" alt="image"> 
+                                                </div>
+                                                <!-- featured-thumbnail end-->
+                                                <div class="featured-content-inner">
+                                                  
+                                                </div>
+                                            </div><!-- featured-imagebox-portfolio end-->
+                                        </div>
+                                       
+                                       
                                     </div>
+                                    <!-- <div class="row">
+                                        <div class="col-xl-12 mb-4 text-center">
+                                            <button id="loadMoreBtn" class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-fill ttm-icon-btn-right ttm-btn-color-skincolor" >Load More</button>
+                                          </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -600,9 +584,8 @@
 
 </div><!-- page end -->
 
-
     <!-- Javascript -->
-
+   <script src="js/customquery.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-1.4.1.min.js"></script>
     <script src="js/tether.min.js"></script>
