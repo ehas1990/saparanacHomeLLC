@@ -159,7 +159,7 @@ menu, ol, ul {
 }
 
 body {
-    font-family:themify;
+    font-family:themify1;
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
@@ -167,7 +167,7 @@ body {
     color: #b3b3b3;
 }
 
-h1, h2, h3, h4, h5, h6{ font-family: themify; margin-bottom: 15px; font-weight: 700; color :#fff;}
+h1, h2, h3, h4, h5, h6{ font-family: themify1; margin-bottom: 15px; font-weight: 700; color :#fff;}
 h1 { font-size: 60px; line-height: 72px; }
 h2 { font-size: 30px; line-height: 40px; }
 h3 { font-size: 21px; line-height: 30px; }
@@ -1221,7 +1221,7 @@ ul.social-icons{
 }
 
 .slick_slider .slick-prev:before, .slick_slider .slick-next:before {
-    font-family: 'themify';
+    font-family: 'themify1';
     font-size: 15px;
     line-height: 1;
     opacity: 1;
@@ -1269,7 +1269,7 @@ ul.social-icons{
     top: 38%;
 }
 .slick_slider.slick-arrows-style1 .slick-prev:before, .slick_slider.slick-arrows-style1 .slick-next:before {
-    font-family: 'themify';
+    font-family: 'themify1';
     font-size: 15px;
     line-height: 1;
     opacity: 1;
